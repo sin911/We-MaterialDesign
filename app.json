@@ -1,0 +1,30 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/me/me"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#f0f0f0",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "backgroundColor": "#f0f0f0",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "Sign in",
+      "iconPath": "images/nav.png",
+      "selectedIconPath": "images/nav_h.png"
+      
+    },
+    {
+      "pagePath": "pages/me/me",
+      "text": "User Center",
+      "iconPath": "images/me.png",
+      "selectedIconPath": "images/me_h.png"
+    }
+    ]
+  }
+
+}
