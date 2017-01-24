@@ -1,0 +1,17 @@
+<view class="ripple-main">
+  <view class="v-content" bindtap="onClickPaper">
+    <text class="tx">Ripple</text>
+    <view class="ripple" style="{{ripple_style}}"></view>
+  </view>
+
+  <view class="v-content2" bindtap="onClickPaper2" style="{{reveal_style}}">
+    <text class="tx">{{reveal}}</text>
+    <view class="ripple2" style="{{ripple_style2}}"></view>
+  </view>
+
+
+
+    <view class="v-logo-text">
+    —  Material Design  —
+  </view>
+</view>
