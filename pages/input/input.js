@@ -1,6 +1,7 @@
 //index.js
 //获取应用实例
 var app = getApp()
+
 Page({
   data: {
     v_username_border:'', //用户输入框底部border样式
