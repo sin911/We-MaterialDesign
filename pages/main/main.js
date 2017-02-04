@@ -1,6 +1,6 @@
 Page({
   data:{
-      txs:['input','ripple、reveal'],
+      txs:['input','ripple、reveal','snackbar'],
       url:''
   },
   onLoad:function(options){
@@ -21,7 +21,7 @@ Page({
            tempTitle = '../ripple/ripple'
           break;
         case 2:
-            tempTitle = '../pallete/pallete'
+            tempTitle = '../snackbar/snack'
           break;
       }
       wx.navigateTo({
