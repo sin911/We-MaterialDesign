@@ -21,7 +21,7 @@ reveal：是ripple的变形，减慢动画执行时间，同时保持两层view�
   
   snackbar： 主要用于提醒用户或者轻量级交互，实现原理： 在需要使用snackbar的页面底部添加一个view，对view进行fixed定位且设置z-index为1000，动态show和hide即可  
 
-![](http://i1.piimg.com/567571/b1a3ccce5780a8b5.gif)
+![](http://i1.piimg.com/4851/b1a3ccce5780a8b5.gif)
 ####  使用：
   	1. 复制utils下snackbar文件夹到自己的项目指定目录下
 	2. 在需要使用snackbar的页面的.wxml文件中导入snackbar模板
