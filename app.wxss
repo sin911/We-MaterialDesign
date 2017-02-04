@@ -1,4 +1,5 @@
 /**app.wxss**/
+@import "utils/snackbar/snackbar.wxss";
 page{
   height: 100%;
   font-family:Times New Roman,Georgia,Serif;
