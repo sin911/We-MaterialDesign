@@ -61,7 +61,41 @@ reveal：是ripple的变形，减慢动画执行时间，同时保持两层view�
     </tr>  
 </table>  
 
-	
-	
-	
+<table >  
+    <tr>  
+        <td>属性</td>  
+    <td>说明</td>  
+    </tr>  
+    <tr>  
+        <td>snack_title</td>  
+    <td>snackbar的消息文本</td>  
+    </tr>
+    <tr>  
+        <td>snack_action</td>  
+    <td>snackbar的action文本</td>  
+    </tr>  
+    
+    <tr>  
+        <td>onActionClick</td>  
+    <td>snackbar的action点击事件</td>
+    </tr>  
+    
+    <tr>  
+        <td>duration</td>  
+    <td>snackbar的显示时长，若设置为负数或者0，内部自动调为2秒</td> 
+    </tr>
+    
+      <tr>  
+        <td>style_snack_action</td>  
+    <td>snackbar的action的样式，可以设置文本颜色，字体等等</td> 
+    </tr>
+    
+     <tr>  
+        <td>style_snackbar</td>  
+    <td>snackbar的样式，可以设置文本颜色，字体，背景色等等</td> 
+    </tr>
+    
+    
+</table>  
+sample： 可详细参见pages/snackbar目录下demo  
 	
