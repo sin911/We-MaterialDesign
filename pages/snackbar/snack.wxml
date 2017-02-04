@@ -1,0 +1,22 @@
+<import src="../../utils/snackbar/snackbar.wxml"/>
+<view class="v-item" bindtap="onClick1" hover="true" hover-class="hover-item">
+    Text Message
+</view >
+
+<view class="v-item" bindtap="onClick2" hover="true" hover-class="hover-item">
+    Text Message & Action
+</view>
+
+<view class="v-item" bindtap="onClick3" hover="true" hover-class="hover-item">
+    Change Background
+</view>
+
+<view class="v-item" bindtap="onClick4" hover="true" hover-class="hover-item">
+    Change Action Background
+</view>
+
+<view class="v-item" bindtap="onClick5" hover="true" hover-class="hover-item">
+    Long Duration(4 seconds)
+</view>
+
+<template is="snackbar" data="{{...snackbar}}"/>
