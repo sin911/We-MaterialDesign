@@ -36,16 +36,31 @@ reveal：是ripple的变形，减慢动画执行时间，同时保持两层view�
             style_snackbar:'background-color:deepskyblue;'
         })
 	
-| 方法 | 说明 |
-|: -------------:|:-------------:|
-| getInstance | 用于SnackBar单例，避免创建过多snackbar对象造成内存占用过大 |
-| show | 用于snackbar显示 |
-| hide | 隐藏snackbar， 同dismiss |
-| make | snackbar对外提供的方法，内部维护了show和hide方法 |
+<table >  
+    <tr>  
+        <td>方法</td>  
+    <td>说明</td>  
+    </tr>  
+    <tr>  
+        <td>getInstance</td>  
+    <td>用于SnackBar单例，避免创建过多snackbar对象造成内存占用过大</td>  
+    </tr>  
+    <tr>  
+        <td>show</td>  
+    <td>用于snackbar显示</td>  
+    </tr>  
+    
+    <tr>  
+        <td>hide</td>  
+    <td>隐藏snackbar， 同dismiss</td>  
+    </tr>  
+    
+    <tr>  
+        <td>make</td>  
+    <td>snackbar对外提供的方法，内部维护了show和hide方法 </td>  
+    </tr>  
+</table>  
 
-
-| 属性 | 说明 |
-|: -------------:|:-------------:|
 	
 	
 	
